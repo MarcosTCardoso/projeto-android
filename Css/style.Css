@@ -138,13 +138,12 @@ main a {
     text-decoration: none;
     font-weight: bold;
     color: var(--cor5);
-    background-color: var(--cor1);
     padding: 2px 6px;
     border-radius: 15px 0px;
 }
 main a:hover {
     text-decoration: underline;
-    color: var(--cor3);
+    color: white;
 }
 
 picture > img {
@@ -191,10 +190,11 @@ main div.noticias a > p  {
     font-size: 1.1em;
     font-family: var(--fonte-padrao);
 
-    text-align: justify;
+    text-align: center;
     text-indent: 0px;
     line-height: 1.5em;
     padding: 10px;
+    margin: 0px;
 }
 
 main a picture > img.img_noticias {
@@ -208,10 +208,16 @@ main a picture > img.img_noticias {
 main div > a.link_noticias{
     display: inline;
     background-color: transparent;
+    padding: 0%;
 }
 
 main div > a.link_noticias:hover{
     color: var(--cor1);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0%;
 }
 
 aside {
